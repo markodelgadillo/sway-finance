@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 10%;
+  height: auto;
+  position: relative;
+  top: 20px;
+  left: 150px;
+}
+
+.container {
+  height: 75px;
+  background-color: #1f2532;
+  color: white;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bar {
+  margin: 0 auto;
+  height: 75px;
+  color: white;
+  width: 90%;
+}
+
+.buttons {
+  color: lightgray;
+  float: right;
+  position: relative;
+  top: 18px;
+  right: 125px;
+}
+
+.navigation {
+  float: left;
+  margin: 10px;
+}
+
+.signup {
+  margin-left: 30px;
+}
