@@ -4,11 +4,11 @@
 }
 
 img {
-  width: 10%;
-  heighcdt: auto;
+  width: 10.5%;
+  height: auto;
   position: relative;
-  top: 20px;
-  left: 150px;
+  top: 18px;
+  left: 153px;
 }
 
 .container {
@@ -27,19 +27,29 @@ img {
 }
 
 .buttons {
-  color: lightgray;
   float: right;
   position: relative;
   top: 18px;
-  right: 125px;
+  right: 70px;
 }
 
 .navigation {
+  color: rgb(182, 184, 188);
   font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.5px;
   float: left;
-  margin: 10px;
+  margin: 10px 10px 10px 14px;
 }
 
 .signup {
-  margin-left: 30px;
+  color: white;
+  font-size: 13px;
+  margin-left: 20px;
+  border-radius: 2px;
+  background-color: rgb(103, 200, 131);
+  padding: 10px 22px;
+  position: relative;
+  top: -10px;
 }
