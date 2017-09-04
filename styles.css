@@ -3,16 +3,8 @@
   box-sizing: border-box;
 }
 
-img {
-  width: 121px;
-  height: auto;
-  position: relative;
-  top: 18px;
-  left: 153px;
-}
-
 .container {
-  height: 450px;
+  height: 750px;
   background-color: #1f2532;
   color: white;
   width: 100%;
@@ -28,11 +20,17 @@ img {
   width: 1000px;
 }
 
+.content img {
+  width: 121px;
+  height: auto;
+  position: relative;
+  top: 18px;
+}
+
 .buttons {
   float: right;
   position: relative;
   top: 18px;
-  right: 70px;
 }
 
 .navigation {
@@ -54,7 +52,6 @@ img {
 }
 
 .product {
-  padding: 30px;
   margin-top: 100px;
   position: relative;
 }
@@ -77,4 +74,16 @@ img {
 .prod-video {
   width: 50%;
   float: right;
+}
+
+#vid {
+  width: 500px;
+  border-radius: 5px;
+}
+
+#play {
+  width: 86px;
+  position: absolute;
+  top: 141px;
+  right: 208px;
 }
