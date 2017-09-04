@@ -38,6 +38,7 @@
   font-size: 12.5px;
   float: left;
   margin: 10px 10px 10px 14px;
+  text-decoration: none;
 }
 
 .signup {
@@ -52,7 +53,7 @@
 }
 
 .product {
-  margin-top: 100px;
+  margin-top: 170px;
   position: relative;
 }
 
@@ -60,15 +61,18 @@
   width: 50%;
   position: absolute;
   float: left;
+  padding: 50px 20px 50px 0;
 }
 
-.prod-info h1 {
+header {
   margin-bottom: 20px;
-  font-weight: 400;
+  font-weight: 300;
+  font-size: 40px;
 }
 
 .prod-info p {
-  font-size: 14px;
+  font-size: 17px;
+  color: rgb(182, 184, 188);
 }
 
 .prod-video {
@@ -86,4 +90,24 @@
   position: absolute;
   top: 141px;
   right: 208px;
+}
+
+#input {
+  width: 270px;
+  height: 36px;
+  color: lightgray;
+  padding-left: 10px;
+}
+
+.email {
+  border: none;
+  padding: 10px 50px;
+  float: right;
+  margin-left: 0;
+  top: 0;
+}
+
+form p {
+  padding-top: 20px;
+  padding-right: 50px;
 }
