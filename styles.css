@@ -26,9 +26,10 @@ form p {
   font-family: 'Source Sans Pro';
   font-weight: 400;
   margin: 0 auto;
-  height: 450px;
+  height: 600px;
   color: white;
   width: 1000px;
+  overflow: hidden;
 }
 
 .content img {
@@ -130,6 +131,12 @@ form p {
   margin-top: 10px;
 }
 
+.part4 {
+  position: absolute;
+  top: 400px;
+  width: 100%;
+}
+
 #vid {
   width: 500px;
   border-radius: 5px;
@@ -153,11 +160,47 @@ form p {
   position: absolute;
   top: 750px;
   background-color: rgb(248, 249, 253);
-  height: 360px;
+  height: 920px;
   width: 100%;
 }
 
 #icon3 {
   width: 40px;
   height: 38px;
+}
+
+#slack-info {
+  width: 50%;
+  float: left;
+  position: absolute;
+  left: 130px;
+  top: 142px;
+}
+
+#slack-info header {
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 19px;
+}
+
+#slack-info p {
+  font-weight: 300;
+  font-size: 16px;
+  color: rgb(139, 143, 154);
+  line-height: 23px;
+}
+
+#slack-img {
+  float: right;
+  position: absolute;
+  left: 540px;
+  width: 600px;
+}
+
+#button-4 {
+  border: none;
+  float: left;
+  margin-top: 30px;
+  margin-left: 0;
 }
